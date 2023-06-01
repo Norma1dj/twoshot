@@ -28,6 +28,6 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("", include("receipts.urls")),
     path('receipts/', include('receipts.urls')),
+    path("accounts/", include("accounts.urls")),
     
-   
 ]
